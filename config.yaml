@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: https://roderickseow.netlify.app
 title: Roderick Seow
 theme: hugo-theme-m10c
 paginate: 8
@@ -46,3 +46,7 @@ security:
     - (?i)GET|POST
     urls:
     - .*
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

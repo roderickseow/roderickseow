@@ -40,7 +40,7 @@ security:
   funcs:
     getenv:
     - ^HUGO_
-    - BLOGDOWN_POST-RELREF
+    - BLOGDOWN_POST_RELREF
   http:
     methods:
     - (?i)GET|POST
